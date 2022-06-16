@@ -6,6 +6,7 @@ import PlayerFunction from './Components/PlayerFunction/PlayerFunction';
 function App() {
   return (
     <div className="App">
+      <h1>Class Vs Function Component</h1>
       {/* Functional Components */}
       <PlayerFunction name='Messi' goals={5} />
       <PlayerFunction name='Ronaldo' goals={-5} />

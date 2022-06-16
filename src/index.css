@@ -47,3 +47,8 @@ code {
   color: green;
   font-weight: 900;
 }
+
+.box {
+  background-color: burlywood;
+  border: 2px solid brown;
+}

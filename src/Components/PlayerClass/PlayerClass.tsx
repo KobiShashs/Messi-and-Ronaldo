@@ -31,7 +31,7 @@ class PlayerClass extends Component<PlayerClassProps, PlayerClassState> {
 
     public render(): JSX.Element {
         return (
-            <div className="PlayerClass single-col">
+            <div className="PlayerClass single-col box">
                 <h2>CC</h2>
                 <p className="single-row">{this.props.name}</p>
                 <div className="single-row">
