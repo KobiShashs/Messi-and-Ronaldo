@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PlayerClass from './Components/PlayerClass/PlayerClass';
+import PlayerFunction from './Components/PlayerFunction/PlayerFunction';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Functional Components */}
+      <PlayerFunction name='Messi' goals={5} />
+      <PlayerFunction name='Ronaldo' goals={-5} />
+      {/* Class Components */}
+      <PlayerClass name='Messi' goals={5} />
+      <PlayerClass name='Ronaldo' goals={-5} />
     </div>
   );
 }
