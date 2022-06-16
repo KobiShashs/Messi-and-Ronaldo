@@ -10,9 +10,11 @@ function App() {
       {/* Functional Components */}
       <PlayerFunction name='Messi' goals={5} />
       <PlayerFunction name='Ronaldo' goals={-5} />
+      <PlayerFunction name='Zlatan' goals={-5} />
       {/* Class Components */}
       <PlayerClass name='Messi' goals={5} />
       <PlayerClass name='Ronaldo' goals={-5} />
+      <PlayerClass name='Zlatan' goals={-5} />
     </div>
   );
 }
